@@ -101,7 +101,6 @@ class FunctionalPositionController {
       return util.send(res);
     }
   }
-
 }
 
 export default FunctionalPositionController;

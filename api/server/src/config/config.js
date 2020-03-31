@@ -12,9 +12,9 @@ module.exports = {
   },
 
   test: {
-    database: 'book_test',
-    username: 'steven',
-    password: null,
+    database: 'dupak-esdm-test',
+    username: 'postgres',
+    password: 'postgres',
     host: '127.0.0.1',
     dialect: 'postgres'
   },
