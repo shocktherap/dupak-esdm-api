@@ -4,7 +4,7 @@ require('dotenv').config();
 module.exports = {
 
   development: {
-    database: 'dupak-esdm',
+    database: 'dupak_esdm',
     username: 'postgres',
     password: 'postgres',
     host: '127.0.0.1',
@@ -12,7 +12,7 @@ module.exports = {
   },
 
   test: {
-    database: 'dupak-esdm-test',
+    database: 'dupak_esdm_test',
     username: 'postgres',
     password: 'postgres',
     host: '127.0.0.1',
