@@ -91,7 +91,7 @@ class FunctionalPositionController {
       const FunctionalPositionToDelete = await FunctionalPositionService.deleteFunctionalPosition(id);
 
       if (FunctionalPositionToDelete) {
-        util.setSuccess(200, 'FunctionalPosition deleted', {id: id});
+        util.setSuccess(200, 'FunctionalPosition deleted', {id: Number(id)});
       } else {
         util.setError(404, `FunctionalPosition with the id ${id} cannot be found`);
       }
