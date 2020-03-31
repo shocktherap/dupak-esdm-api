@@ -169,7 +169,7 @@ describe('Testing the functional_position endpoints:', () => {
       .set('Accept', 'application/json')
       .end((err, res) => {
         expect(res.status).to.equal(200);
-        expect(res.body.data).to.include({});
+        expect(res.body.data).to.include({id: functional_positionId});
         done();
       });
   });
