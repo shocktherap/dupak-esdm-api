@@ -1,4 +1,3 @@
-Dupak ESDM API
+[![Build Status](https://travis-ci.com/shocktherap/dupak-esdm-api.svg?token=fbqysLjzJZE2r7DRJwnz&branch=master)](https://travis-ci.com/shocktherap/dupak-esdm-api)
 
-build using node js and express
-using travis for build
+Dupak ESDM API
