@@ -1,5 +1,5 @@
 import FunctionalPositionService from '../services/FunctionalPositionService';
-import Util from '../utils/Utils';
+import Util from '../utils/Utilities';
 
 const util = new Util();
 
