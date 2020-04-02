@@ -29,7 +29,13 @@ class UserController {
     try {
       const authenticatedUser = await UserService.authenticate(newAuthenticate);
       if (authenticatedUser) {
-        util.setSuccess(200, 'User retrieved', authenticatedUser);
+        util.setSuccess(200, 'User retrieved', {
+          id: authenticatedUser.id,
+          name: authenticatedUser.name,
+          email: authenticatedUser.email,
+          ern: authenticatedUser.ern,
+          token: 'fake-jwt-token'
+        });
       } else {
         util.setSuccess(200, 'No Users found');
       }
